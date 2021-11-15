@@ -30,7 +30,7 @@ class CategoriesController < ApplicationController
 
   def api
     @category = Category.find(params[:id])
-    render json: @category.to_json(include: :sub_categories)
+    render json: @category.to_json(include: [:sub_categories, :bookmarks])
   end
 
   private
