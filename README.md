@@ -2,6 +2,11 @@
 
 _Este es mi proyecto de prueba para el módulo de JavaScript_
 
+## Despliegue 📦
+
+_El proyecto lo puedes encontrar en_ [Heroku](https://stark-taiga-14548.herokuapp.com)
+
+
 ## Comenzando 🚀
 
 ```
