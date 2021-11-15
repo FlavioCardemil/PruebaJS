@@ -30,8 +30,9 @@ gem "chartkick", "~> 4.1"
 ### Endpoint ⚙️
 
 ```
-http://localhost:3000/api/category/1
+https://stark-taiga-14548.herokuapp.com/api/category/:id
 ```
+_A modo de ejemplo se puede usar esta llamada_ (https://stark-taiga-14548.herokuapp.com/api/category/1)
 
 ---
 ⌨️ con ❤️ por [FlavioCardemil](https://github.com/FlavioCardemil) 😊
