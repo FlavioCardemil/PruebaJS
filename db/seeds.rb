@@ -5,20 +5,20 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-require 'faker'
+# require 'faker'
 
-Bookmark.destroy_all
+# Bookmark.destroy_all
 
-20.times do
-  Category.create(
-    title: Faker::TvShows::SouthPark.character
-  )
-end
+# 20.times do
+#   Category.create(
+#     title: Faker::TvShows::SouthPark.character
+#   )
+# end
 
-20.times do
-  Bookmark.create(
-    url: Faker::Internet.url,
-    category_id: Random.rand(1..10),
-    type_id: Random.rand(1..10)  
-  )
-end
+# 20.times do
+#   Bookmark.create(
+#     url: Faker::Internet.url,
+#     category_id: Random.rand(1..10),
+#     type_id: Random.rand(1..10)  
+#   )
+# end
